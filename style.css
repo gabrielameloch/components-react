@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+  background-color: #c6c6c6; /* Defina a cor de fundo desejada */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly; /* Distribui os ícones uniformemente na linha */
+  margin-top: 20px; /* Adiciona um espaçamento superior */
+  text-align: center;
+}
+
+.icon-bella,
+.icon-boo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  border-radius: 80%;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.icon-enrolados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180%;
+  height: 150vh;
+  border-radius: 80%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* ActionButton.css */
+
+.button {
+  background-color: #74ffc5; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: 30px solid rgb(0, 0, 0);
+  border-radius: 30px; /* Borda arredondada */
+  cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+  font-size: 16px; /* Tamanho da fonte do texto do botão */
+  margin: 32px auto;
+  display: block;
+}
+
+/* Card.css */
+
+/* Card.css */
+
+.card {
+  border: 10px solid #74ffc5; /* Adiciona uma borda */
+  border-radius: 8px; /* Arredonda as bordas */
+  margin-right: 20px; /* Adiciona uma margem à direita para criar espaço entre os cards */
+  width: 200px;
+}
+
+.card-container {
+  display: flex; /* Aplica layout flexível */
+  justify-content: center; /* Centraliza horizontalmente os cards dentro do contêiner */
+  align-items: center; /* Centraliza verticalmente os cards dentro do contêiner */
+}
+
+.card-image {
+  max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner */
+  max-height: 100%; /* Define a altura máxima da imagem como 100% do contêiner */
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.card-content {
+  padding: 0px; /* Adiciona algum espaçamento interno */
+}
+
+.card-title {
+  margin-top: 20; /* Remove a margem superior padrão do título */
+  margin-bottom: 5px; /* Adiciona uma pequena margem inferior */
+}
+
+.card-description {
+  margin: 0; /* Remove todas as margens do parágrafo de descrição */
+}
